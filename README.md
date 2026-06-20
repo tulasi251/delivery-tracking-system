@@ -99,3 +99,8 @@ From the Expo CLI console, you can select how you want to run the project:
 7. **Track on Map**: Tap **Monitor Live Vehicle** to open the tracking map. You will see the vehicle position updating in real-time, matching the driver's screen progress.
 8. **Completion**: If you switch back to the driver or stay on the manager screen, the simulation will automatically transition to **Delivered** when the driver marker reaches the customer's coordinate, ending the simulation loop and marking it completed.
 9. **Reset State**: Click the circular arrow icon in the top right of the Manager Hub to reset all orders back to **Pending** at any time.
+
+## Output
+![Home Page](images/login.png)
+![Rider Dashboard](images/rider.png)
+![Manager Dashboard](images/manager.png)
