@@ -21,7 +21,7 @@
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
-      "baseUrl": "/delivery-tracking"
+      "baseUrl": "/delivery-tracking-system"
     }
   }
 }
