@@ -1,20 +1,44 @@
 {
-  "name": "delivery-tracking-cli",
+  "name": "delivery-tracking-system",
   "version": "2.0.0",
-  "description": "Delivery Tracking System — interactive Node.js CLI",
-  "type": "module",
-  "main": "cli/index.js",
-  "bin": {
-    "delivery-cli": "./cli/index.js"
-  },
+  "description": "Delivery Tracking System — React web app + Node.js CLI",
   "scripts": {
-    "start": "node cli/index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cli": "node cli/index.js"
   },
   "dependencies": {
+    "ajv": "^8.20.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
     "chalk": "^5.3.0",
     "cli-table3": "^0.6.5",
     "inquirer": "^9.3.7",
     "ora": "^8.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "private": true
 }
