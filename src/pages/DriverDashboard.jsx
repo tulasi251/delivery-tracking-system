@@ -5,7 +5,6 @@ import {
   startGPSSimulation,
   stopGPSSimulation,
   isSimulationRunning,
-  TOTAL_STEPS_COUNT,
 } from '../services/trackingService.js';
 import StatusBadge from '../components/StatusBadge.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';

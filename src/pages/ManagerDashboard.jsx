@@ -16,7 +16,7 @@ export default function ManagerDashboard() {
   const [selectedOrder, setSelectedOrder]   = useState(null);
   const [autoRefresh, setAutoRefresh]       = useState(false);
   const [showResetConfirm, setShowResetConfirm] = useState(false);
-  const [tick, setTick] = useState(0); // force re-render for auto-refresh
+  const [_tick, setTick] = useState(0); // force re-render for auto-refresh
 
   // Stats
   const total     = orders.length;
